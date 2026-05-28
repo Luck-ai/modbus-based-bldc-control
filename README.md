@@ -56,8 +56,8 @@ Pin assignments live in `stm32_simple-foc.ioc` (open in STM32CubeMX) and the gen
 ### Option A — CMake + arm-none-eabi-gcc
 
 ```bash
-git clone https://github.com/Luck-ai/modbus-based-bldc-control
-cd modbus-based-bldc-control
+git clone https://github.com/Luck-ai/motorpilot
+cd motorpilot
 mkdir build && cd build
 cmake ..
 cmake --build .
@@ -78,7 +78,7 @@ OpenOCD config for the on-board ST-Link is included: `st_nucleo_f4.cfg`.
 ## 🗂 Project structure
 
 ```text
-modbus-based-bldc-control/
+motorpilot/
 ├── Core/
 │   ├── Inc/                 # headers (main.h, drivers, FOC, PID, encoder, OLED)
 │   ├── Src/
@@ -109,6 +109,6 @@ FOC algorithm ported from **[SimpleFOC](https://github.com/simplefoc/Arduino-FOC
 
 <div align="center">
 
-**Modbus-Based BLDC Control** · [GitHub](https://github.com/Luck-ai/modbus-based-bldc-control) · [Issues](https://github.com/Luck-ai/modbus-based-bldc-control/issues)
+**Modbus-Based BLDC Control** · [GitHub](https://github.com/Luck-ai/motorpilot) · [Issues](https://github.com/Luck-ai/motorpilot/issues)
 
 </div>
